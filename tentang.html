@@ -10,7 +10,6 @@
 
 <body>
 
-    <!-- ============ HEADER (same as index.html) ============ -->
     <header class="site-header">
         <div class="container header-inner">
             <a href="index.html" class="logo">🌱 HematEnergi</a>
@@ -24,7 +23,7 @@
                     <li><a href="index.html">Beranda</a></li>
                     <li><a href="tentang.html" class="active">Tentang</a></li>
                     <li><a href="dataFakta.html">Data Fakta</a></li>
-                    <li><a href="#">Aksi Rekomendasi</a></li>
+                    <li><a href="aksi.html">Aksi Rekomendasi</a></li>
                 </ul>
             </nav>
         </div>
@@ -39,14 +38,9 @@
             </div>
         </section>
 
-        <!-- ============ STORY / BACKGROUND ============ -->
         <section class="section-block">
             <div class="container">
                 <h2>Cerita Singkat</h2>
-                <!--
-          TODO: Ganti dengan cerita asli kelompok kalian: kenapa kampanye ini dibuat,
-          keresahan apa yang mendorong kalian mengangkat tema ini, dsb.
-        -->
                 <p>
                     Kampanye ini lahir dari keresahan sederhana: lampu yang menyala di ruangan
                     kosong, kipas angin yang tetap berputar padahal tidak ada orang, dan
@@ -62,21 +56,61 @@
             </div>
         </section>
 
-        <!-- ============ GOALS (repeated here for context) ============ -->
         <section class="section-block alt-bg">
             <div class="container">
                 <h2>Apa yang Ingin Kami Capai?</h2>
                 <ul class="goal-list">
-                    <li> Menumbuhkan kebiasaan hemat energi di lingkungan sekolah.</li>
-                    <li> Mengajak warga sekolah mematikan alat elektronik yang tidak dipakai.</li>
-                    <li> Menyampaikan bukti nyata lewat data, bukan sekadar imbauan kosong.</li>
+                    <li> Menumbuhkan kebiasaan hemat energi di lingkungan sekolah secara berkelanjutan.</li>
+                    <li> Mengajak warga sekolah mematikan alat elektronik, AC, dan komputer lab yang tidak dipakai.</li>
+                    <li> Menyampaikan bukti nyata berbasis data riset ilmiah, bukan sekadar imbauan kosong.</li>
                 </ul>
+            </div>
+        </section>
+
+        <section class="section-block">
+            <div class="container">
+                <h2>Kolaborasi Lintas Mata Pelajaran (Inkolab)</h2>
+                <p>
+                    Kampanye ini merupakan perwujudan dari <strong>Projek Inkolab: Konservasi dan Penghematan Energi Listrik</strong> di SMK Wikrama Bogor yang memadukan tiga mata pelajaran utama:
+                </p>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin: 20px 0;">
+                    <div style="background: var(--color-bg-alt); padding: 18px; border-radius: var(--radius); border-left: 4px solid var(--color-primary);">
+                        <strong style="color: var(--color-primary); font-size: 1.05rem;">📐 Matematika</strong>
+                        <p style="font-size: 0.9rem; margin-top: 6px; color: #455a64;">
+                            Analisis data bivariat (107 responden DKV), regresi linier Y = 22,34 + 0,322X, perhitungan korelasi Pearson (r = 0,270), dan pemodelan diagram pencar.
+                        </p>
+                    </div>
+                    <div style="background: var(--color-bg-alt); padding: 18px; border-radius: var(--radius); border-left: 4px solid #1976d2;">
+                        <strong style="color: #1976d2; font-size: 1.05rem;">📖 Bahasa Indonesia</strong>
+                        <p style="font-size: 0.9rem; margin-top: 6px; color: #455a64;">
+                            Penyusunan makalah penelitian ilmiah: <em>"Hubungan Tingkat Pengetahuan Energi Listrik Terhadap Sikap Hemat Listrik Siswa SMK Wikrama Bogor"</em>.
+                        </p>
+                    </div>
+                    <div style="background: var(--color-bg-alt); padding: 18px; border-radius: var(--radius); border-left: 4px solid #f57f17;">
+                        <strong style="color: #f57f17; font-size: 1.05rem;">🇮🇩 Pendidikan Pancasila</strong>
+                        <p style="font-size: 0.9rem; margin-top: 6px; color: #455a64;">
+                            Pengamalan karakter tanggung jawab sosial dan disiplin menjaga fasilitas publik milik bersama sebagai cerminan Sila ke-5.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block alt-bg">
+            <div class="container" style="text-align: center;">
+                <h2>Langkah Berikutnya</h2>
+                <p style="max-width: 650px; margin: 0 auto 20px auto;">
+                    Setelah memahami latar belakang kampanye ini, Anda dapat meninjau data kuesioner nyata dari 636 siswa atau langsung melihat aksi rekomendasi konkret.
+                </p>
+                <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+                    <a href="dataFakta.html" class="btn-primary">Telusuri Data &amp; Fakta</a>
+                    <a href="aksi.html" class="btn-secondary">Lihat Aksi &amp; Rekomendasi ➜</a>
+                </div>
             </div>
         </section>
 
     </main>
 
-    <!-- ============ FOOTER (same as index.html) ============ -->
     <footer class="site-footer">
         <div class="container">
             <p><span id="currentYear"></span>@Kampanye Hemat Energi.</p>
